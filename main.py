@@ -33,4 +33,7 @@ def convert_for_png_jpg():
     im.save(f'IMG Result\{name}.jpg')
     print('Файл сохранен')
     print('Вы перемещены в главное меню')
-main_menu()
+    
+if __name__ =='__main__':
+    main_menu()
+
